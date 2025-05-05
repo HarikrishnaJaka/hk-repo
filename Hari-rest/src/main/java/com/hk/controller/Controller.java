@@ -16,5 +16,11 @@ public class Controller
 	{
 		return "hello good afternoon";
 	}
+	@GetMapping("/contact")
+	public String contact()
+	{
+		return "54165468948";
+	}
+
 
 }
