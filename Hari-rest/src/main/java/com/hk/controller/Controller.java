@@ -11,5 +11,10 @@ public class Controller
 	{
 		return "hello boss how are you";
 	}
+	@GetMapping("/greet")
+	public String greet()
+	{
+		return "hello good afternoon";
+	}
 
 }
